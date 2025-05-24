@@ -236,10 +236,3 @@ const nextConfig = {
 module.exports = process.env.ANALYZE
   ? withBundleAnalyzer(nextConfig)
   : nextConfig
-
-module.exports = {
-  images: {
-    unoptimized: true, // 关闭图片优化
-  },
-  // 其他配置...
-}
